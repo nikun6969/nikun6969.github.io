@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <title> E-Fraud </title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Boxiocns CDN Link -->
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css' rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  
+  <div class="sidebar">
+    <div class="logo-details">
+      <a href="index.html" style="text-decoration: none;"> 
+        <i class="fas fa-graduation-cap" style="color: #ffffff; margin-left: 5px;"></i>
+        <span class="logo_name">E-Fraud</span>
+        </a>
+    </div>
+    <ul class="nav-links">
+      <li>
+        <a href="usersdashboard.html" id="homeButton">
+          <i class='bx bx-home'></i>
+          <span class="link_name">Πίνακας ελέγχου</span>
+        </a>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class='bx bx-collection'></i>
+            <span class="link_name">Βασικές Επιλογές</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow'></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Βασικές Επιλογές</a></li>
+          <li><a href="courses.html">Μαθήματα</a></li>
+          <li><a href="help.html">Βοήθεια</a></li>
+          <li><a href="contact.html">Εικοινωνία</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class='bx bx-book-alt'></i>
+            <span class="link_name">Επιλογές Χρήστη</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow'></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Επιλογές Χρήστη</a></li>
+          <li><a href="mycourses.html">Εγγεγραμμένα Μαθήματα</a></li>
+          <li><a href="announcements.html">Ανακοινώσεις</a></li>
+          <li><a href="inbox.html">Μηνύματα</a></li>
+          <li><a href="personal_calendar.html">Ημερολόγιο</a></li>
+        </ul>
+      </li>
+
+      <li>
+        <div class="profile-details">
+          <div class="profile-content">
+            <img src="image/profile_img.gif" alt="profileImg">
+          </div>
+          <div class="name-job">
+            <div class="profile_name">Sugoma</div>
+            <div class="job">Μαθητής</div>
+          </div>
+          <i class='bx bx-log-out'></i>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <section class="home-section">
+    <div class="home-content">
+      <i class='bx bx-menu'></i>
+      <span class="text">Μαθήματα</span>
+    </div>
+
+    <!-- Subjects List -->
+    <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-11 mb-3 mb-lg-5">
+            <div class="overflow-hidden card table-nowrap table-card">
+              <div class="card-header d-flex justify-content-between align-items-center">
+                <h5 class="mb-0">Μαθήματα</h5>
+                <a href="#!" class="btn btn-light btn-sm">View All</a>
+              </div>
+              <div class="table-responsive">
+                <table class="table mb-0">
+                  <thead class="small text-uppercase bg-body text-muted">
+                    <tr>
+                      <th>Μάθημα</th>
+                      <th>Καθηγητής</th>
+                      <th>Εγγεγραμένοι</th>
+                      <th class="text-end">Επιλογές</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="align-middle">
+                      <td>Μαθηματικά</td>
+                      <td>Βλάχοσ</td>
+                      <td>12</td>
+                      <td class="text-end">
+                        <div class="drodown">
+                          <a data-bs-toggle="dropdown" href="#" class="btn p-1" aria-expanded="false">
+                            <i class="fa fa-bars" aria-hidden="true"></i>
+                          </a>
+                          <div class="dropdown-menu dropdown-menu-end" style>
+                            <a href="#!" class="dropdown-item">Πληροφορίες</a>
+                            <a href="#!" class="dropdown-item">Εγγραφή</a>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="align-middle">
+                      <td>Προ1</td>
+                      <td>Τσελ</td>
+                      <td>666</td>
+                      <td class="text-end">
+                        <div class="drodown">
+                          <a data-bs-toggle="dropdown" href="#" class="btn p-1" aria-expanded="false">
+                            <i class="fa fa-bars" aria-hidden="true"></i>
+                          </a>
+                          <div class="dropdown-menu dropdown-menu-end" style>
+                            <a href="#!" class="dropdown-item">Πληροφορίες</a>
+                            <a href="#!" class="dropdown-item">Εγγραφή</a>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <!-- ... other rows for other subjects ... -->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
